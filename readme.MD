@@ -27,18 +27,18 @@ $ docker-compose up --build
 https://www.postman.com/atom-pos/iykra-technical-test-aditya-erlangga-wibowo/overview
 
 - URL Local: http://localhost:8080
-- URL Cloud: http://165.232.165.182:8080
+- URL Cloud: https://iykra.adityaerlangga.my.id
 
   
     
 
 |                          METHOD                          |              URL               |   Description   |
 | :------------------------------------------------------: | :----------------------------: | :-------------: |
-|      ![GET](https://img.shields.io/badge/-GET-blue)      |  http://localhost:8080/employees   |   GetAllEmployees   |
-|      ![GET](https://img.shields.io/badge/-GET-blue)      | http://localhost:8080/employees/:id |   GetEmployeeByID   |
-|      ![POST](https://img.shields.io/badge/-POST-success)      | http://localhost:8080/employees/ |   CreateEmployee 
-|     ![PUT](https://img.shields.io/badge/-PUT-orange)     |   http://localhost:8080/employees/:id   | UpdateEmployee |
-![DELETE](https://img.shields.io/badge/-DELETE-critical) | http://localhost:8080/employees/:id  | DeleteEmployee  |
+|      ![GET](https://img.shields.io/badge/-GET-blue)      |  https://iykra.adityaerlangga.my.id/employees   |   GetAllEmployees   |
+|      ![GET](https://img.shields.io/badge/-GET-blue)      | https://iykra.adityaerlangga.my.id/employees/:id |   GetEmployeeByID   |
+|      ![POST](https://img.shields.io/badge/-POST-success)      | https://iykra.adityaerlangga.my.id/employees/ |   CreateEmployee 
+|     ![PUT](https://img.shields.io/badge/-PUT-orange)     |   https://iykra.adityaerlangga.my.id/employees/:id   | UpdateEmployee |
+![DELETE](https://img.shields.io/badge/-DELETE-critical) | https://iykra.adityaerlangga.my.id/employees/:id  | DeleteEmployee  |
 
 ### PAYLOAD
 
