@@ -26,7 +26,7 @@ $ docker-compose up --build
 
 https://www.postman.com/atom-pos/iykra-technical-test-aditya-erlangga-wibowo/overview
 
-- URL Local: http://localhost:8080 \
+- URL Local: http://localhost:8080
 - URL Cloud: http://165.232.165.182:8080
 |                          METHOD                          |              URL               |   Description   |
 | :------------------------------------------------------: | :----------------------------: | :-------------: |
