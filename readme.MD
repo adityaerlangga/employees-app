@@ -22,6 +22,16 @@ DB_PORT=5432
 $ docker-compose up --build
 ```
 
+| No | Task                              | Check             |
+|:--:|----------------------------------|:-----------------:|
+| 1  | Database Setup (Postgre SQL)    |        ✅         |
+| 2  | API Implementation               |        ✅         |
+| 3  | Dockerize the Application        |        ✅         |
+| 4  | Deploy to Kubernetes             | Not Implemented   |
+| 5  | Version Control with Github      |        ✅         |
+| 6  | Bonus (Optional): Integrate Cloud Infrastructure |        ✅         |
+
+
 ### Routes:
 
 https://www.postman.com/atom-pos/iykra-technical-test-aditya-erlangga-wibowo/overview
