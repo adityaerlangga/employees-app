@@ -10,16 +10,11 @@ import (
 func main() {
     r := gin.Default()
 
-    // Initialize the database
     db := utils.InitDB()
 
-    // Initialize the service
     employeeService := services.NewEmployeeService(db)
-
-    // Initialize the controller with the service
     employeeController := controllers.NewEmployeeController(employeeService)
 
-    // API routes
     r.GET("/employees", employeeController.GetAllEmployees)
     r.GET("/employees/:id", employeeController.GetEmployeeByID)
     r.POST("/employees", employeeController.CreateEmployee)

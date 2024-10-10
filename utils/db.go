@@ -10,31 +10,24 @@ import (
 )
 
 func InitDB() *gorm.DB {
-    // Load environment variables from .env file
     err := godotenv.Load()
     if err != nil {
         log.Fatalf("Error loading .env file")
     }
 
-    // Get database configuration from environment variables
     dbHost := os.Getenv("DB_HOST")
     dbUser := os.Getenv("DB_USER")
     dbPassword := os.Getenv("DB_PASSWORD")
     dbName := os.Getenv("DB_NAME")
     dbPort := os.Getenv("DB_PORT")
 
-    // Membuat Data Source Name (DSN)
     dsn := "host=" + dbHost + " user=" + dbUser + " password=" + dbPassword + " dbname=" + dbName + " port=" + dbPort + " sslmode=disable"
     
-    // Menghubungkan ke database
     db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
     if err != nil {
         log.Fatalf("failed to connect to database, got error: %v", err)
     }
-
-    // Menjalankan migrasi
     MigrateDB(db)
-
     return db
 }
 
