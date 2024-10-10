@@ -2,6 +2,26 @@
 
 ![Logo](./assets/banner.png)
 
+
+## Setup
+```
+$ git clone https://github.com/adityaerlangga/employees-app
+$ cd employees-app
+```
+
+```
+DB_HOST=db # FOR RUNNING DOCKER
+# DB_HOST=localhost # FOR LOCAL ENV
+DB_USER=postgres
+DB_PASSWORD=root
+DB_NAME=db_employees
+DB_PORT=5432
+```
+
+```
+$ docker-compose up --build
+```
+
 ### Routes
 
 |                          METHOD                          |              URL               |   Description   |
@@ -19,12 +39,12 @@
 ```
 {
     "name": "Aditya",
-    "position": "Erlangga",
+    "position": "Software Engineer",
     "salary": 20000
 }
 ```
 
-##### UPDATE
+##### UPDATE (PARAMS ID)
 
 ```
 {
@@ -32,18 +52,4 @@
     "position": "Full Stack Engineer",
     "salary": 15000000
 }
-```
-
-## Requirements
-
-- go 1.19.1
-
-## Setup
-
-Do this :
-
-```
-$ git clone https://github.com/adityaerlangga/go-clean-architecture
-$ go mod download
-$ go run main.go
 ```
