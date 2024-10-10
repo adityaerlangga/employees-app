@@ -22,8 +22,12 @@ DB_PORT=5432
 $ docker-compose up --build
 ```
 
-### Routes
+### Routes:
 
+https://www.postman.com/atom-pos/iykra-technical-test-aditya-erlangga-wibowo/overview
+
+- URL Local: http://localhost:8080 \
+- URL Cloud: http://165.232.165.182:8080
 |                          METHOD                          |              URL               |   Description   |
 | :------------------------------------------------------: | :----------------------------: | :-------------: |
 |      ![GET](https://img.shields.io/badge/-GET-blue)      |  http://localhost:8080/employees   |   GetAllEmployees   |
