@@ -1,0 +1,17 @@
+# Ignore Go build artifacts
+bin/
+pkg/
+cmd/
+
+# Ignore Go cache files
+*.out
+*.test
+*.log
+
+# Ignore the Dockerfile itself
+Dockerfile
+
+# Ignore Git files
+.git
+.gitignore
+
