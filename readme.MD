@@ -78,5 +78,3 @@ https://www.postman.com/atom-pos/iykra-technical-test-aditya-erlangga-wibowo/ove
 - Ubuntu 20.04
 - Domain Propagation
 - Redirect HTTPS
-
-Full Setup
