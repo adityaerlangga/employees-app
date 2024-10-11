@@ -19,7 +19,7 @@ DB_PORT=5432
 ```
 
 ```
-$ docker-compose up --build
+$ docker-compose up -d
 ```
 
 | No | Task                              | Check             |
@@ -71,3 +71,12 @@ https://www.postman.com/atom-pos/iykra-technical-test-aditya-erlangga-wibowo/ove
     "salary": 15000000
 }
 ```
+
+## Infra Spesifications
+
+- Digital Ocean VPS RAM 2GB/1vCPU
+- Ubuntu 20.04
+- Domain Propagation
+- Redirect HTTPS
+
+Full Setup
